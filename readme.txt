@@ -449,3 +449,12 @@ error: pathspec 'test.txt' did not match any file(s) known to git.
 
 mi@lenovo MINGW64 ~/Desktop/learngit (master)
 $
+
+
+
+
+
+master--------（切换到master分支，创建bug分支。对于bug分支的修改进行合并。删除bug分支转到dev分支）
+              --------bug（转到bug分支，对master已经提交过的修改进行修改，然后提交，转到master分支）
+			  
+dev-----------（啥也没干，工作区文件LICENSE.txt已经修改，保存到stash中。读取stash中的内容）
